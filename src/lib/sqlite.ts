@@ -4,14 +4,16 @@ import { open } from 'sqlite';
 let dbInstance: any = null;
 
 export async function getDB() {
-    if (dbInstance) return dbInstance;
+  if (dbInstance) return dbInstance;
 
-    dbInstance = await open({
-        filename: './database.sqlite',
-        driver: sqlite3.Database
-    });
+  const filename = process.env.DATABASE_URL?.replace('file:', '') || './database.sqlite';
 
-    await dbInstance.exec(`
+  dbInstance = await open({
+    filename,
+    driver: sqlite3.Database
+  });
+
+  await dbInstance.exec(`
     CREATE TABLE IF NOT EXISTS reviews (
       id TEXT PRIMARY KEY,
       rating INTEGER,
@@ -33,5 +35,5 @@ export async function getDB() {
     );
   `);
 
-    return dbInstance;
+  return dbInstance;
 }
