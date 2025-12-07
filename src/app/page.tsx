@@ -4,8 +4,12 @@ import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Star, Send, Sparkles, MessageSquare, ThumbsUp } from 'lucide-react';
 import { cn } from '@/lib/utils';
+import { redirect } from 'next/navigation';
 
 export default function UserDashboard() {
+  if (process.env.NEXT_PUBLIC_APP_MODE === 'admin') {
+    redirect('/admin');
+  }
   const [rating, setRating] = useState(0);
   const [hoveredRating, setHoveredRating] = useState(0);
   const [review, setReview] = useState('');
