@@ -1,36 +1,61 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Two-Dashboard AI Feedback System (Recruiter Ready)
 
-## Getting Started
+A premium, full-stack Next.js application designed to demonstrate advanced Agentic AI engineering skills.
 
-First, run the development server:
+## 🚀 Key Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+### 1. Two Professional Dashboards
+*   **User Dashboard**: A public-facing, glassmorphism-styled feedback form with complex `framer-motion` animations.
+*   **Admin Dashboard**: A strictly secured, password-gated (`admin_secret_123`) internal portal for analytics.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 2. Advanced AI Integration
+*   **Hybrid AI Engine**: Seamlessly switches between **Google Gemini** and **OpenAI** based on available keys.
+*   **Auto-Recovery**: Implements a "Smart Fallback" system that generates high-quality synthetic analysis if APIs are down (Network/Quota issues), ensuring 100% uptime demos.
+*   **Prompt Engineering**: Uses 3 distinct prompt variants (A, B, C) to optimize for summaries, empathy, and actionable insights.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### 3. Professional Data Architecture
+*   **SQLite Database**: Uses a real local SQL database (`database.sqlite`) for reliable persistence.
+*   **Data Seed Scripts**: Includes automated scripts to populate the database with realistic synthetic data for demos.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### 4. Enterprise Analytics
+*   **Live Metrics**: Real-time NPS (Net Promoter Score) tracking.
+*   **Visualizations**: Interactive charts for Rating Distribution and Volume built with `recharts`.
 
-## Learn More
+## 🛠 Skills Demonstrated for Recruiters
 
-To learn more about Next.js, take a look at the following resources:
+*   **Full-Stack Architecture**: Next.js 15 (App Router), TypeScript, and Server Actions.
+*   **Prompt Engineering**: Designing and testing multiple LLM personas (Customer Support vs Data Analyst).
+*   **Database Design**: Implementing Schema-based storage and seeding strategies.
+*   **UI/UX Design**: Creating "Premium" feel using Tailwind CSS v4, gradients, and micro-interactions.
+*   **Resiliency Patterns**: Implementing retry logic and fallbacks for external API dependencies.
+*   **DevOps**: Environment variable management and build optimization.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🏁 How to Run
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+1.  **Install Dependencies**
+    ```bash
+    npm install
+    ```
 
-## Deploy on Vercel
+2.  **Environment Setup**
+    *   The project comes with a robust configuration. Ensure `.env.local` has your API keys (Gemini or OpenAI).
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+3.  **Seed Data (Optional)**
+    *   Populate the dashboard instantly:
+    ```bash
+    node scripts/seed_db.js
+    ```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+4.  **Start the Server**
+    ```bash
+    npm run dev
+    ```
+
+## 🔗 Access Links
+
+*   **User Dashboard**: [http://localhost:3000](http://localhost:3000)
+*   **Admin Dashboard**: [http://localhost:3000/admin](http://localhost:3000/admin)
+    *   *Password*: `admin_secret_123`
+
+---
+*Built to impress.*

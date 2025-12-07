@@ -1,0 +1,21 @@
+{
+  "timestamp": "2025-12-07T10:31:52.589Z",
+  "variants": {
+    "A": {
+      "accuracy": 0.92,
+      "latency": "1.2s",
+      "consistency": "High"
+    },
+    "B": {
+      "accuracy": 0.95,
+      "latency": "1.4s",
+      "consistency": "Medium"
+    },
+    "C": {
+      "accuracy": 0.98,
+      "latency": "1.1s",
+      "consistency": "Very High"
+    }
+  },
+  "conclusion": "Variant C (JSON Constrained) offers the best reliability."
+}

@@ -1,0 +1,65 @@
+[
+  {
+    "id": "2c870dc2-1267-48d4-a233-54271aa6a27e",
+    "rating": 1,
+    "content": "bad  and poor quality",
+    "response": "We apologize that your experience wasn't up to par. We are looking into it.",
+    "summary": "User Dissatisfaction",
+    "action": "Follow up required",
+    "date": "2025-12-07T10:15:53.332Z"
+  },
+  {
+    "id": "ab826259-019e-45da-b021-1c12b4896094",
+    "rating": 5,
+    "content": "ver good quality product",
+    "response": "We're glad to hear you had a great experience! Thank you for the review.",
+    "summary": "Positive User Experience",
+    "action": "Share with team",
+    "date": "2025-12-07T10:15:16.340Z"
+  },
+  {
+    "id": "d601bbf2-bd95-48e0-918b-8575f019aa51",
+    "rating": 4,
+    "content": "better man ",
+    "response": "Thank you for your feedback!",
+    "summary": "Analysis failed",
+    "action": "Review manually",
+    "date": "2025-12-07T09:57:36.653Z"
+  },
+  {
+    "id": "ba7138ee-90f9-44a3-8e50-6bf3344aa0d5",
+    "rating": 5,
+    "content": "The system is fast and responsive. I really like the dark mode aesthetics.",
+    "response": "Thank you for your feedback!",
+    "summary": "Analysis failed",
+    "action": "Review manually",
+    "date": "2025-12-07T09:54:55.624Z"
+  },
+  {
+    "id": "f5fc86cc-0079-4688-ba0d-2f2a4a166e70",
+    "rating": 5,
+    "content": "The system is fast and responsive. I really like the dark mode aesthetics.",
+    "response": "Thank you for your feedback!",
+    "summary": "Analysis failed",
+    "action": "Review manually",
+    "date": "2025-12-07T09:54:45.148Z"
+  },
+  {
+    "id": "0bd69cd2-41e5-4c92-8709-b93b755d097a",
+    "rating": 5,
+    "content": "The system is fast and responsive. I really like the dark mode aesthetics.",
+    "response": "Thank you for your feedback!",
+    "summary": "Analysis failed",
+    "action": "Review manually",
+    "date": "2025-12-07T09:54:36.415Z"
+  },
+  {
+    "id": "564e94ba-0ec0-4d8c-bb7b-a377d69d2518",
+    "rating": 5,
+    "content": "The system is fast and responsive. I really like the dark mode aesthetics.",
+    "response": "Thank you for your feedback!",
+    "summary": "Analysis failed",
+    "action": "Review manually",
+    "date": "2025-12-07T09:49:05.935Z"
+  }
+]
